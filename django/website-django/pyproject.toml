@@ -1,0 +1,22 @@
+[project]
+name = "website-django"
+version = "0.1.0"
+description = "Django website project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.0.4",
+]
+
+[dependency-groups]
+dev = [
+    "taskipy>=1.14.1",
+]
+
+[tool.taskipy.tasks]
+"runserver" = "python manage.py runserver"
+"startapp" = "python manage.py startapp"
+"startproject" = "django-admin startproject core ."
+"export" = "uv export --no-group dev --format requirements.txt > requirements.txt"
+"export:dev" = "uv export --only-group dev --format requirements.txt > requirements.dev.txt"
+"export:all" = "uv run task export:dev && uv run task export"
