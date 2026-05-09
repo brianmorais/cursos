@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc40e191-8487-48c9-86bb-c5b29f4b2b76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../calculadora_imc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calculadora_imc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja_virtual/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../loja_virtual/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja_virtual/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../loja_virtual/android/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja_virtual/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loja_virtual/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja_virtual/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loja_virtual/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja_virtual/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../loja_virtual/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loja_virtual/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../loja_virtual/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="contador_de_pessoas" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1c2b65w1TQIRQA9T6THjamHae8q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc40e191-8487-48c9-86bb-c5b29f4b2b76" name="Default Changelist" comment="" />
+      <created>1589729456252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589729456252</updated>
+    </task>
+    <servers />
+  </component>
+</project>
