@@ -1,0 +1,64 @@
+﻿@model Introducao.Models.Pessoa
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Curso de ASP.NET MVC</h2>
+<p>Curso</p>
+
+
+@*<br />
+    <br />
+
+    <p> @ViewData["PessoaId"] </p>
+    <p> @ViewData["Nome"] </p>
+    <p> @ViewData["Tipo"] </p>
+
+    <br />
+    <hr />
+    <br />
+
+    <p> @ViewBag.id </p>
+    <p> @ViewBag.nome </p>
+    <p> @ViewBag.tipo </p>
+
+    <br />
+    <hr />
+    <br />
+
+    <p> @Model.PessoaId </p>
+    <p> @Model.Nome </p>
+    <p> @Model.Tipo </p>
+
+    <br />
+    <hr />
+    <br />*@
+
+@using (Html.BeginForm("Lista", "Home", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Informações de pessoas</legend>
+
+        <div>
+            @Html.LabelFor(x => x.PessoaId)
+        </div>
+        <div>
+            @Html.EditorFor(x => x.PessoaId)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.Nome)
+        </div>
+        <div>
+            @Html.EditorFor(x => x.Nome)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.Tipo)
+        </div>
+        <div>
+            @Html.EditorFor(x => x.Tipo)
+        </div>
+        <p><input type="submit" value="Enviar" /></p>
+    </fieldset>
+
+}

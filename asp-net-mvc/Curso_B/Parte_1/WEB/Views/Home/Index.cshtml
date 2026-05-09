@@ -1,0 +1,16 @@
+﻿@model IEnumerable<BDProjeto.Dominio.Usuarios>
+
+@{
+    ViewBag.Title = "Lista de Usuários";
+}
+
+<h2>Página inicial</h2>
+
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>
+            @item.Nome
+        </li>
+    }
+</ul>
